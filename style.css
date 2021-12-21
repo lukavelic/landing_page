@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    padding: 6px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.main{
+    display:flex;
+    flex: auto;
+    margin: 120px 0px 120px 0px;
+    gap: 48px;
+    padding: 0px 100px 0px 100px;
+}
+.main h1{
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0px;
+}
+.main p{
+    font-size: 32px;
+}
+.main img{
+    max-height: 600px;
+}
+button{
+    width: 120px;
+    height: 48px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    shape-outside: none;
+}
+button:active{
+    background-color: white;
+    color: #3882f6;
+}
+.info{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #1F2937;
+    padding: 0px 100px 0px 100px;
+}
+.info h1{
+    padding: 24px;
+}
+.group{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 200px;
+    gap: 100px;
+    text-align: center;
+    color: #1F2937;
+    padding-bottom: 24px;
+}
+.group img{
+    max-width: 200px;
+    outline: solid #3882f6 2px;
+    border-radius: 10px;
+}
+.testimonial{
+    padding: 100px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 18px;
+}
+.testimonial h2{
+    margin-left: auto;
+}
+.contact{
+    background-color: white;
+    padding: 80px 300px 80px 300px;
+}
+.contact .card{
+    background-color: #3882f6;
+    padding: 24px 150px 24px 150px;
+    border-radius: 20px;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .card button{
+    outline: solid white 1px;
+}
+.footer{
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
